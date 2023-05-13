@@ -5,7 +5,7 @@ Discover the Data Science Masterclass repository! Learn Python, stats, ML, DL, N
 ## Week 1: Introduction to Python 
 
 ### Table of Contents
-- [Introduction](#[introduction](https://github.com/nursnaaz/DataScienceMasterclass/blob/main/01%20-%20Introduction/Introduction.pdf))
+- [Introduction](#https://github.com/nursnaaz/DataScienceMasterclass/blob/main/01%20-%20Introduction/Introduction.pdf)
 - [Python Fundamentals](#python-fundamentals)
 
 
