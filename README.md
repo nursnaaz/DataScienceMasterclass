@@ -6,7 +6,7 @@ Discover the Data Science Masterclass repository! Learn Python, stats, ML, DL, N
 
 ### Table of Contents
 - [Introduction](https://github.com/nursnaaz/DataScienceMasterclass/blob/main/01%20-%20Introduction/Introduction.pdf)
-- [Python Fundamentals](#python-fundamentals)
+- [Python Fundamentals](https://github.com/nursnaaz/DataScienceMasterclass/tree/main/02%20-%20Python)
 
 
 ### Content Description
