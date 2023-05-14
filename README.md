@@ -10,7 +10,7 @@ Discover the Data Science Masterclass repository! Learn Python, stats, ML, DL, N
 
 
 ### Content Description
-In Week 1, 
+In Week 1 and 2, you will have a solid understanding of Python programming and be ready to dive into pandas, library for data amanipulation in  data science. Make sure to complete the exercises and assignments to gain practical experience and enhance your skills.
 
 We encourage you to actively participate, ask questions, and share your progress. Let's embark on this exciting journey together!
 
