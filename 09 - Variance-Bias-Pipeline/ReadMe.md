@@ -1,4 +1,4 @@
-**Understanding the Variance-Bias Tradeoff: A Comprehensive Guide** 
+# Understanding the Variance-Bias Tradeoff: A Comprehensive Guide
 
   
 
