@@ -39,22 +39,22 @@ Let's explore a concrete example by building a text classification pipeline:
 
 ```python
 from sklearn.pipeline import Pipeline
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.naive_bayes import MultinomialNB
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LinearRegression
 
 # Define transformers
-vectorizer = TfidfVectorizer()
-classifier = MultinomialNB()
+scaler = StandardScaler()
+regressor = LinearRegression()
 
 # Build the pipeline
-text_classifier = Pipeline([
-    ('vectorizer', vectorizer),
-    ('classifier', classifier)
+regression_pipeline = Pipeline([
+    ('scaler', scaler),
+    ('regressor', regressor)
 ])
 
 # Fit and predict using the pipeline
-text_classifier.fit(X_train, y_train)
-y_pred = text_classifier.predict(X_test)
+regression_pipeline.fit(X_train, y_train)
+y_pred = regression_pipeline.predict(X_test)
 ```
 
 ## 6. Advanced Techniques
