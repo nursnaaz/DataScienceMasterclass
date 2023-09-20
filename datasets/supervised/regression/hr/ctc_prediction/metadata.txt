@@ -1,0 +1,31 @@
+CTC Prediction Data Set  
+===========================================================
+Number of Instances:  1338
+Number of Attributes:  9
+===========================================================
+
+DATA SET INFORMATION:
+
+
+Prediction of CTC or Salary of New Hire
+
+The data is in ASCII CSV format. 
+
+===========================================================
+
+ATTRIBUTE INFORMATION:
+
+S.No.
+College
+Role
+City
+type
+Previous CTC
+Previous job changes
+Graduation marks
+Exp (Months)
+CTC
+===========================================================
+Target:
+CTC
+===========================================================

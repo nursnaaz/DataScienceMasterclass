@@ -1,0 +1,42 @@
+Clustering-Bank Dataset
+Customer Segmentation of a retail Bank Dataset(Clustering)  
+===========================================================
+Number of Instances:  949039
+Number of Attributes:  10
+===========================================================
+
+DATA SET INFORMATION:
+Pinnacle Development Bank (PDB) is a leading retail bank in the country. The bank is facing several challenges in recent times. the major problem is customer service. After analyzing the various feedbacks posted on social media platforms LinkedIn and NPS(Net Promoter Score- A mechanism to measure Customer experience) you got to know that majority of the customers are not happy with the customer service. High waiting time in the branch, Long queue in the call center, too frequent marketing emails/SMS, etc. 
+
+ Segmentation of account holders is very important into different clusters to serve better such as a client with good relationship value to be served on priority (No waiting time/No long queue). Also, segmentation is very important to understand the need of the customer. The marketing team can send promotion emails/SMS based on the customer's profile.
+
+The data is in ASCII CSV format. 
+
+===========================================================
+
+ATTRIBUTE INFORMATION:
+
+CustomerID - Customer identification Unique Id for each customer.
+
+DateOfBirth - Date of birth of the customer
+
+Gender - Gender of the customer
+
+City - City where the customer lives in
+
+AccountBalance - Current account balance available in the account
+
+HavingFD - If the customer has FD, 0- No DF, 1- Yes FD(s) as there.
+
+HavingCC - If the customer has Credit Card, 0- No DF, 1- Yes FD(s) as there.
+
+CIBIL_Score - Lies between 300-900 and signifies the customer's creditworthiness.
+
+HavingLoan - If the customer has Loan, 0- No DF, 1- Yes Loan as there.
+
+RV - Total quantitative relationship values with the bank. Including all (AccountBalance, FD, Credit Card, Loan)`
+
+===========================================================
+Target:
+To get customers segmented in a new column
+===========================================================

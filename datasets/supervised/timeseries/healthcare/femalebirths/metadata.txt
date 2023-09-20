@@ -1,0 +1,12 @@
+Daily total female births in California, 1959
+
+Instances: 365
+Features: 2
+
+Attribute info:
+Date = dd/mm/yyyy
+no. of female child births in integers
+
+Target:
+Forecast Future female child birth
+

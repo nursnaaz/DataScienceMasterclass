@@ -1,0 +1,42 @@
+Phone Price Prediction Data Set  
+===========================================================
+Number of Instances:  1512
+Number of Attributes:  22
+===========================================================
+
+DATA SET INFORMATION:
+
+This dataset contains phone features including price of popular brands. Every phone in this dataset continues to be manufactured. Does not include discontinued phones.
+
+The data is in ASCII CSV format. 
+
+===========================================================
+
+ATTRIBUTE INFORMATION:
+
+phone_name: name of the phone
+brand: brand of the phone
+os: operating system of the phone
+inches size of the phone screen as inches
+resolution: resolution of the phone screen
+battery: battery capacity of the phone
+battery_type: battery type of the phone
+ram(GB): ram of the phone as GB
+announcement_date: the date of the announcement of the phone
+weight(g): weight of the phone as gram
+storage(GB): storage capacity of the phone as GB
+video_720p: does phone camera has 720p feature
+video_1080p: does phone camera has 1080p feature
+video_4K: does phone camera has 4K feature
+video_8K: does phone camera has 8K feature
+video_30fps: does phone camera has 30fps feature
+video_60fps: does phone camera has 60fps feature
+video_120fps: does phone camera has 120fps feature
+video_240fps: does phone camera has 240fps feature
+video_480fps: does phone camera has 480fps feature
+video_960fps: does phone camera has 960fps feature
+
+===========================================================
+Target:
+price(USD): price of the phone as USD
+===========================================================

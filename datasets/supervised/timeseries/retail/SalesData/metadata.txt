@@ -1,0 +1,35 @@
+Time Series Data Set  
+===========================================================
+Number of Instances:  64
+Number of Attributes:  5
+===========================================================
+
+DATA SET INFORMATION:
+
+The data is in ASCII CSV format. 
+
+===========================================================
+
+ATTRIBUTE INFORMATION:
+
+
+Period
+Period for model
+
+Revenue
+Company revenue
+
+Sales_quantity
+Company Sales
+
+Average_cost
+Average cost of production
+
+The_average_annual_payroll_of_the_region
+The average number of employees pay in the region per year
+
+
+===========================================================
+Target:
+Revenue or quantity or cost or annual_pay
+===========================================================

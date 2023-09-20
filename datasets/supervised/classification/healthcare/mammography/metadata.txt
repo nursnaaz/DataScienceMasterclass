@@ -1,0 +1,12 @@
+Mammography dataset
+
+Instances: 11183
+Features: 7
+Detection of Microcalcifications in Mammography
+
+Atrribute:
+
+Target
+Calcifications present
+-1 = no
+ 1 = yes

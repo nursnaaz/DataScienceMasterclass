@@ -1,0 +1,11 @@
+Zuerich monthly sunspot numbers 1749-1983
+
+Instances: 2820
+Features: 2
+
+Attribute info:
+Month = yyyy-mm
+Sunspots in decimals
+
+Target:
+Forecast sunspot in future dates 

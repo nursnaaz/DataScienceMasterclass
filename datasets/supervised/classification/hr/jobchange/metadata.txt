@@ -1,0 +1,49 @@
+HR Analytics: Job Change of Data Scientists
+===========================================================
+Number of Instances:  19158
+Number of Attributes:  14
+===========================================================
+
+DATA SET INFORMATION:
+This dataset designed to understand the factors that lead a person to leave current job for HR researches too. By model(s) that uses the current credentials,demographics,experience data you will predict the probability of a candidate to look for a new job or will work for the company, as well as interpreting affected factors on employee decision.
+
+
+The data is in ASCII CSV format. 
+
+===========================================================
+
+ATTRIBUTE INFORMATION:
+
+enrollee_id : Unique ID for candidate
+
+city: City code
+
+city_ development _index : Developement index of the city (scaled)
+
+gender: Gender of candidate
+
+relevent_experience: Relevant experience of candidate
+
+enrolled_university: Type of University course enrolled if any
+
+education_level: Education level of candidate
+
+major_discipline :Education major discipline of candidate
+
+experience: Candidate total experience in years
+
+company_size: No of employees in current employer's company
+
+company_type : Type of current employer
+
+last_new_job: Difference in years between previous job and current job
+
+training_hours: training hours completed
+
+
+===========================================================
+Target:
+target: 0 – Not looking for job change, 1 – Looking for a job change
+===========================================================
+
+

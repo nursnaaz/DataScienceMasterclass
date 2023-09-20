@@ -1,0 +1,14 @@
+Oil spill dataset
+Detection of Oil Spills in Satellite Radar Images
+
+instances: 937
+features: 50
+
+Attributes
+49 features
+
+Target
+1 feature
+
+0-no oil spill
+1-oil spill

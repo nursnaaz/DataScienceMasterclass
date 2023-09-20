@@ -1,0 +1,14 @@
+Mean monthly air temperature (Deg. F) Nottingham Castle 1920-1939
+
+Instances: 240
+Features: 2
+
+Attribute info:
+Month = yyyy-mm
+Temperature in decimals
+
+Target:
+Forecast Future dates temperature
+
+
+

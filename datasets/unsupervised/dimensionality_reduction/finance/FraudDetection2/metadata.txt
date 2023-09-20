@@ -1,0 +1,34 @@
+Fraud Detection Data Set  
+===========================================================
+Number of Instances:  7840
+Number of Attributes:  31
+===========================================================
+
+DATA SET INFORMATION:
+
+the features of the transactions in the main data set of the institution 
+were very large, first, using the dimension reduction method, reduce the 
+number of features 
+
+
+The data is in ASCII CSV format. 
+
+===========================================================
+
+ATTRIBUTE INFORMATION:
+
+Time: This feature includes the time interval between each transaction in the 
+dataset and its unit in seconds 
+
+Amount: It is equal to the amount of the corresponding transaction 
+
+V1, V2 … V28: Features 
+
+Class: Determining whether a transaction is fake or real. 
+If it is one, it means that the transaction was fake, and if its value is zero, 
+the transaction is healthy
+
+===========================================================
+Target:
+Reduce the features
+===========================================================

@@ -1,0 +1,31 @@
+Title: # The phoneme database #
+
+Instances:	5404
+Features:	6
+
+Relevant information
+
+Most of the already existing speech recognition systems are global
+systems (typically Hidden Markov Models and Time Delay Neural Networks)
+which recognises signals and do not really use the speech
+specificities.  On the contrary, analytical systems take into account
+the articulatory process leading to the different phonemes of a given
+language, the idea being to deduce  the presence of each of the
+phonetic features from the acoustic observation.
+
+
+Attribute info:
+This database contains vowels coming from 1809 isolated syllables (for
+example: pa, ta, pan,...).  Five different attributes were chosen to
+characterize each vowel: they are the amplitudes of the five first
+harmonics AHi, normalised by the total energy Ene (integrated on all the
+frequencies): AHi/Ene. Each harmonic is signed: positive when it
+corresponds to a local maximum of the spectrum and negative otherwise.
+
+Target:
+The aim of the present database is to distinguish between nasal and
+oral vowels. There are thus two different classes:
+
+	Class 0 : Nasals
+	Class 1 : Orals
+

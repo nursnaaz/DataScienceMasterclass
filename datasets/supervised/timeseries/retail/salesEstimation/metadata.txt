@@ -1,0 +1,13 @@
+Sales  over a three year period
+
+observation: 36
+features: 2
+Source: Time Series Data Library 
+
+attribute info:
+Month (yy-mmm)
+
+Target:
+Sales in continuous
+
+Forecasting sales

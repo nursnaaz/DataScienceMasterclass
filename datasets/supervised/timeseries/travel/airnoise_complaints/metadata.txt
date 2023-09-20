@@ -1,0 +1,28 @@
+Aircraft Noise Complaints Summary Data Set  
+===========================================================
+Number of Instances:  7232
+Number of Attributes:  6
+===========================================================
+
+DATA SET INFORMATION:
+Counts of aircraft noise complaints by community and by month. The Aircraft Noise Abatement Office collects this data via the Complaint Hotline, Online Complaint Form, emails, letters and telephone calls to our office. This information is collected and published in a monthly report which is presented at the SFO Airport Community Roundtable meetings. It is used to understand community's aircraft noise concerns, to collaborate with stakeholders in an effort to reduce and manage aircraft noise.
+The data is in ASCII CSV format. 
+
+===========================================================
+
+ATTRIBUTE INFORMATION:
+
+Column Name	Description	Type
+Year		The year of the aircraft noise complaint disturbance.			Number
+Month		The month of the aircraft noise complaint disturbance.			Number
+Community	The name of the community where the aircraft noise disturbance occurred.Plain Text
+Total Complaints	
+		The number of monthly complaints associated by community.		Number
+Total Number of Callers	
+		The number of Complainants associated by community. The term “caller” is inclusive of all 		methods of contacting the SFO Noise Office. These would include: telephone, email, web form, 			WebTrak Noise App, SFO Noise App and direct calls.			Number
+data_loaded_at	Date the data was loaded onto the Open Data Portal			Date & Time
+
+===========================================================
+Target:
+To forecast the complaints
+===========================================================

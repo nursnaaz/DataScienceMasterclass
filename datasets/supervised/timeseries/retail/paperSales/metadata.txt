@@ -1,0 +1,12 @@
+CFE specialty writing papers monthly sales
+
+Instances: 147
+Features: 2
+
+Attribute info:
+Month = yy-mmm
+Sales in decimals
+
+Target:
+Forecast Future sales
+

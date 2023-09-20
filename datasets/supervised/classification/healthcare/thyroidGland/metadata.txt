@@ -1,0 +1,32 @@
+Title of Database: 
+   Thyroid gland data. ('normal', hypo and hyper functioning)
+
+Relevant Information Paragraph:
+
+	Five lab. tests are used to try to predict whether a patient's
+	thyroid to the class euthyroidism, hypothyroidism or
+	hyperthyroidism. The diagnosis (the class label) was based
+	on a complete medical record, including anamnesis, scan etc.
+   
+Number of Instances	215
+Number of Attributes 	5
+
+For Each Attribute: (please give both acronym and full name if both exist)
+
+	Attr. no : 
+
+	2:	T3-resin uptake test. (A percentage)
+	3:	Total Serum thyroxin as measured by the isotopic
+		displacement method. 
+	4: 	Total serum triiodothyronine as measured by radioimmuno
+		assay.
+	5: 	basal thyroid-stimulating hormone (TSH) as measured by 
+		radioimmuno assay.
+	6: 	Maximal absolute difference of TSH value after injection of 
+		200 micro grams of thyrotropin-releasing hormone as compared
+		to the basal value.
+
+	All attributes are continuous.
+
+Target:
+	1:	Class attribute (1 = normal, 2 = hyper, 3 = hypo)

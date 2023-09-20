@@ -1,0 +1,33 @@
+Carvana - Predict Car Prices
+Predict Car Prices from Carvana.com using the make, year, and mileage
+===========================================================
+Number of Instances:  22000
+Number of Attributes:  4
+===========================================================
+
+DATA SET INFORMATION:
+This dataset contains data about 22,000 cars from carvana.com. Using this data we can derive new insights about cars prices, and we can develop predictive models to predict the cost of car given it's make and model, year, and mileage.
+
+
+The data is in ASCII CSV format. 
+
+===========================================================
+
+ATTRIBUTE INFORMATION:
+
+Name
+Make and model of the car
+
+Year
+Year the car was made
+
+Miles
+Mileage of the car
+
+===========================================================
+Target:
+The price of the car is in USD.
+===========================================================
+Price
+The price of the car is in USD.
+
