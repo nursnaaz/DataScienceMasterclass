@@ -62,10 +62,10 @@ def splitting_train_test(data: pd.DataFrame) -> (Tuple[pd.DataFrame, pd.DataFram
 
 
 # # Register the MLflow model registry
-# zenml model-registry register mlflow_salary_prediction --flavor=mlflow
+# zenml model-registry register mlflow_salary_prediction_v2 --flavor=mlflow
 
 # # Update our stack to include the model registry
-# zenml stack update salary_prediction -r mlflow_salary_prediction
+# zenml stack update salary_prediction -r mlflow_salary_prediction_v2
 
 experiment_tracker = Client().active_stack.experiment_tracker
 print(experiment_tracker.name)
@@ -111,19 +111,23 @@ def best_model_selector(
     
 
 
+# most_recent_model_version_number = int(
+#     Client()
+#     .active_stack.model_registry.list_model_versions(metadata={})[0]
+#     .version
+# )
+# print("most_recent_model_version_number : ",most_recent_model_version_number)
 
-most_recent_model_version_number = int(
-    Client()
-    .active_stack.model_registry.list_model_versions(metadata={})[0]
-    .version
+from zenml.integrations.mlflow.steps.mlflow_registry import (
+    mlflow_register_model_step,
 )
-print(most_recent_model_version_number)
 
-model_name = "salary_prediction_best_model"
+model_name = "zenml-quickstart-model"
+
 register_model = mlflow_register_model_step.with_options(
     parameters=dict(
         name=model_name,
-        description="The first run of the salary_prediction pipeline.",
+        description="The first run of the Quickstart pipeline.",
     )
 )
 
@@ -137,8 +141,7 @@ def train_register_best_model() -> None:
     rf_model = randomforest_model_mlflow(X_train, y_train)
     gbm_model = gbm_model_mlflow(X_train, y_train)
     best_model = best_model_selector(X_test, y_test, rf_model, gbm_model)
-    #register_model(best_model)
-
+    register_model(best_model)
 
 
 
@@ -149,8 +152,9 @@ if __name__ == "__main__":
 
 
 
-
+# zenml clean -y
 # zenml down
+# zenml init
 # run mlproject_zenml.py
 # zenml up
     
